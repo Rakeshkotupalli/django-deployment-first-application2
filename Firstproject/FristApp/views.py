@@ -40,4 +40,5 @@ def homepage(request):
     re_path("^.*$",views.homepage),
     #(from django.urls import re_path;)
     
-
+def gitview(req):
+    return Httpresponse("<h1>Hello from Git-view</h1><hr />");
