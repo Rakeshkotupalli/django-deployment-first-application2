@@ -43,4 +43,4 @@ def homepage(request):
 def gitview(req):
     return Httpresponse("<h1>Hello from Git-view</h1><hr />");
 def githubview(req):
-	return Httpresponse("<h1>Hello from github-view</h1><hr />);
+	return Httpresponse("<h1>Hello from github-view</h1><hr />");
